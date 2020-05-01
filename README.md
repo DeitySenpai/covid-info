@@ -1,7 +1,7 @@
 # Covid Info
 ---
 
-### [ [parsing from ...](https://github.com/pomber/covid19) ]
+ [`parsing from ...`](https://github.com/pomber/covid19)
 
 ## example
 
