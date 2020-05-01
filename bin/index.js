@@ -79,4 +79,4 @@ class Covid{
 	}
 }
 
-module.exports = new Covid()
+module.exports = Covid

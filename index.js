@@ -1,4 +1,5 @@
-const covid = require('./utils/covid.js')
+const Covid = require('./bin/index.js')
+const covid = new Covid()
 let output = ({ newDay, lastDay, country } = {}) => {
 	console.log(`
 ${country}
@@ -10,6 +11,4 @@ Deaths:    ${newDay.deaths.toLocaleString()} (+${(newDay.deaths - lastDay.deaths
 }
 
 covid.data().then(output) //default - all data
-covid.data('Ukraine').then(output)
 covid.data('Russia').then(output)
-covid.data('Italy').then(output)
