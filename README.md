@@ -30,6 +30,7 @@ Deaths:    ${newDay.deaths.toLocaleString()} (+${(newDay.deaths - lastDay.deaths
 `)
 }
 
-covid.data().then(output) //default - all data
 covid.data('Russian').then(output)
+// covid.data() //Default - 'World'
 ```
+![alt-image](https://media.discordapp.net/attachments/615884194740043797/705847161169903616/unknown.png)
