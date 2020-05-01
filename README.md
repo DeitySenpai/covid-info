@@ -1,7 +1,7 @@
 # Covid Info
 ---
 
-### [[parsing from ...](https://github.com/pomber/covid19)]
+### [ [parsing from ...](https://github.com/pomber/covid19) ]
 
 ## example
 
@@ -30,7 +30,7 @@ Deaths:    ${newDay.deaths.toLocaleString()} (+${(newDay.deaths - lastDay.deaths
 `)
 }
 
-covid.data('Russian').then(output)
-// covid.data() //Default - 'World'
+covid.data('Russia').then(output)
+// covid.data() - Default - 'World'
 ```
-![alt-image](https://media.discordapp.net/attachments/615884194740043797/705847161169903616/unknown.png)
+![alt-image](https://media.discordapp.net/attachments/615884194740043797/705848544036257903/unknown.png)
