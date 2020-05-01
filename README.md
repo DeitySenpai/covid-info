@@ -1,8 +1,7 @@
 # Covid Info
 ---
-<br>
-[source](https://github.com/pomber/covid19)
-<br>
+
+### [[parsing from ...](https://github.com/pomber/covid19)]
 
 ## example
 
