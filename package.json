@@ -1,0 +1,22 @@
+{
+  "name": "covid-info",
+  "version": "1.0.0",
+  "description": "Covid info",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senpaai/covid-info.git"
+  },
+  "keywords": [
+    "covid"
+  ],
+  "author": "DeitySenpai <deitysenpainio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Senpaai/covid-info/issues"
+  },
+  "homepage": "https://github.com/Senpaai/covid-info#readme"
+}
