@@ -13,10 +13,18 @@ const covid = new Covid()
 covid.data() return <Promise Object>
 
 Object: {
-	date: String,
-	deaths: String,
-	recovered: String,
-	deaths: String
+  newDay: {
+    date: String,
+    deaths: String,
+    recovered: String,
+    deaths: String
+  },
+  lastDay: {
+    date: String,
+    deaths: String,
+    recovered: String,
+    deaths: String
+  },
 }
 */
 
