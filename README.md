@@ -39,5 +39,6 @@ let output = ({ today, yesterday, country, date }) => {
   Deaths:    ${today.deaths.toLocaleString()} (+${(today.deaths - yesterday.deaths).toLocaleString()})
   `)
 }
+covid.data('Russia').then(output)
 ```
 ![alt-image](https://media.discordapp.net/attachments/615884194740043797/705848544036257903/unknown.png)
