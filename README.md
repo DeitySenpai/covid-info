@@ -6,7 +6,7 @@
 ## example
 
 ```javascript
-const Covid = require('./bin/index.js')
+const Covid = require('./src/index.js')
 const covid = new Covid()
 
 /*

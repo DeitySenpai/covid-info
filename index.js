@@ -1,4 +1,4 @@
-const Covid = require('./bin/index.js')
+const Covid = require('./src/index.js')
 const covid = new Covid()
 let output = ({ newDay, lastDay, country } = {}) => {
 	console.log(`
