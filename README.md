@@ -3,7 +3,7 @@
 
  [`parsing from ...`](https://github.com/pomber/covid19)
 
-### [Covid](https://github.com/Senpaai/covid-info/blob/master/src/index.js)
+### class [Covid](https://github.com/Senpaai/covid-info/blob/master/src/index.js)
 
 #### .data(country)
 > covid-19 data - confirmed, recovered, deaths
