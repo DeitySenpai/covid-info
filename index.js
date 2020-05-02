@@ -1,13 +1,13 @@
 const Covid = require('./src/index.js')
 const covid = new Covid()
-let output = ({ newDay, lastDay, country } = {}) => {
+let output = ({ today, yesterday, country, date }) => {
 	console.log(`
-${country}
-${newDay.date}
-Confirmed: ${newDay.confirmed.toLocaleString()} (+${(newDay.confirmed - lastDay.confirmed).toLocaleString()})
-Recovered: ${newDay.recovered.toLocaleString()} (+${(newDay.recovered - lastDay.recovered).toLocaleString()})
-Deaths:    ${newDay.deaths.toLocaleString()} (+${(newDay.deaths - lastDay.deaths).toLocaleString()})
-`)
+	${country}
+	${date}
+	Confirmed: ${today.confirmed.toLocaleString()} (+${(today.confirmed - yesterday.confirmed).toLocaleString()})
+	Recovered: ${today.recovered.toLocaleString()} (+${(today.recovered - yesterday.recovered).toLocaleString()})
+	Deaths:    ${today.deaths.toLocaleString()} (+${(today.deaths - yesterday.deaths).toLocaleString()})
+	`)
 }
 
 covid.data().then(output) //default - all data
