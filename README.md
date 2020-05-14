@@ -12,17 +12,17 @@
 > | country  | String |
 
 > **Returns** [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)<[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object){<br>
->&nbsp;&nbsp;country: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String),<br>
->&nbsp;&nbsp;date: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String)<br>
+>&nbsp;&nbsp;country: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number),<br>
+>&nbsp;&nbsp;date: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)<br>
 >&nbsp;&nbsp;today: {<br>
->&nbsp;&nbsp;&nbsp;&nbsp;confirmed: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String),<br>
->&nbsp;&nbsp;&nbsp;&nbsp;recovered: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String),<br>
->&nbsp;&nbsp;&nbsp;&nbsp;deaths: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String)<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;confirmed: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number),<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;recovered: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number),<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;deaths: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)<br>
 >&nbsp;&nbsp;},<br>
 >&nbsp;&nbsp;yesterday: {<br>
->&nbsp;&nbsp;&nbsp;&nbsp;confirmed: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String),<br>
->&nbsp;&nbsp;&nbsp;&nbsp;recovered: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String),<br>
->&nbsp;&nbsp;&nbsp;&nbsp;deaths: [String](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String)<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;confirmed: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number),<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;recovered: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number),<br>
+>&nbsp;&nbsp;&nbsp;&nbsp;deaths: [Number]https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)<br>
 >&nbsp;&nbsp;}<br>
 >}><br>
 > **Example**
